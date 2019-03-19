@@ -1,0 +1,16 @@
+DIFFERENCE BETWEEN DECLARATION, DEFINATION AND INITIALIZATION.
+DECLARATION.
+This is creating a variable in javascript with the var keyword, after the declaration the variable becomes undefined.
+Example= var x = 5;
+
+DEFINITION.
+This is asking the complier to allocate memory to variable or define storage for that variable.
+
+
+INITIALIZATION.
+The means of assigning an initial value to a variable.
+//declare at the beginning
+Var name,age,height;
+//use later
+
+
