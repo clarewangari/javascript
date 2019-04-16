@@ -1,0 +1,13 @@
+var fruits =["mango","grape"];
+var foo = function(){
+  var fruits = ["orange"];
+  return{
+    getFruit: function(){return fruits},
+    setFruit: function(frt){fruits = frt; return fruits;}
+  };
+};
+var kiosk = foo()
+
+console.log(fruits);
+console.log(kiosk.getFruit());
+console.log(kiosk.setFruit("banana"));
