@@ -19,3 +19,15 @@ console.log(kioskCalc1.getTotalCost());
 
 
 
+
+
+
+
+arrow function
+let multiplication = (a,b) => a*b
+
+console.log(multiplication(2,3))
+
+
+
+

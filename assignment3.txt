@@ -20,3 +20,8 @@ function pickFruit(fruit_list,fruit_index)
 
 alert (fruit_list[fruit_index]);
 }
+
+
+
+
+

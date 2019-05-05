@@ -1,0 +1,24 @@
+
+
+	//destructuring function
+let user = {
+ name: "Jane Doe",
+ years: 20
+};
+let {name:name, years:age, isStudent="absent"} = user;
+console.log(name,age,isStudent);
+
+
+
+
+
+	//arrow function
+let ask= (question,yes,no) =>{
+  if(confirm (question,yes,no)) yes()
+  else no();
+}
+ask(
+ "Do you agree?",
+  () => { console.log("You agreed."); },
+  () => { console.log("You canceled the execution."); }
+);```
