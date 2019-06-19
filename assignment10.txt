@@ -1,0 +1,20 @@
+var body = document.body;
+body.style.backgroundColor = "silver";
+
+var h1 = document.getElementById("title");
+h1.style.color = "green";
+
+var h3 = document.getElementById("fruits");
+h3.style.textTransform = "uppercase";
+
+var h3 = document.getElementById("vegetables");
+h3.style.textTransform = "uppercase";
+
+var fruits = document.createElement("li");
+fruits.innerHTML = "ovacado";
+fruList.appendChild(fruits); 
+
+
+var vegetables = document.createElement("li");
+vegetables.innerHTML = "carrots";
+vegList.appendChild(vegetables);
