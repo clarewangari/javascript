@@ -1,0 +1,43 @@
+var colorChange =()=>{
+  var title = document.getElementById("title");
+  title.style.color= title.style.color=="green"? "silver":"green"
+
+  };
+  setInterval(colorChange,1000);
+
+var fruits = document.getElementsByClassName("FRUITS");
+  var i;
+
+  for (i = 0; i < fru.length; i++) {
+  fruits[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var fruits = this.nextElementSibling;
+    if (fruit.style.display === "block") {
+      fruit.style.display = "none";
+    } else {
+      fruit.style.display = "block";
+    }
+  });
+}
+
+ var vegetables = document.getElementsByClassName("VEGETABLES");
+    var i;
+
+  for (i = 0; i < veg.length; i++) {
+  vegetables[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var veg = this.nextElementSibling;
+    if (vegy.style.display === "block") {
+      vegy.style.display = "none";
+    } else {
+      vegy.style.display = "block";
+    }
+  });
+}
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
